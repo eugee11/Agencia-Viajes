@@ -1,0 +1,14 @@
+<div class="catalogo">
+  <h2>Destinos Populares</h2>
+  <div class="grid">
+    <div *ngFor="let producto of productos" class="paquete-card">
+      <img [src]="producto.imagen" [alt]="producto.destino" />
+      <h3>{{ producto.destino }}</h3>
+      <p>{{ producto.descripcion }}</p>
+      <p><strong>Duración:</strong> {{ producto.duracion }}</p>
+      <p><strong>Tipo:</strong> {{ producto.tipo }}</p>
+      <p><strong>Desde:</strong> {{ producto.precio | currency:'EUR' }}</p>
+      <a [routerLink]="['/detalle', producto.id]">Ver detalles</a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "destino": "Cancún",
+    "descripcion": "Disfruta de playas cristalinas y un resort todo incluido.",
+    "precio": 850.00,
+    "imagen": "assets/images/cancun.jpeg",
+    "duracion": "5 días / 4 noches",
+    "tipo": "Todo incluido"
+  },
+  {
+    "id": 2,
+    "destino": "París",
+    "descripcion": "Tour romántico con visita a la Torre Eiffel y el Louvre.",
+    "precio": 600.00,
+    "imagen": "assets/images/paris.jpeg",
+    "duracion": "3 días / 2 noches",
+    "tipo": "Ciudad"
+  },
+  {
+    "id": 3,
+    "destino": "Bali",
+    "descripcion": "Escapada a un paraíso tropical con templos y playas.",
+    "precio": 1200.00,
+    "imagen": "assets/images/bali.jpeg",
+    "duracion": "7 días / 6 noches",
+    "tipo": "Aventura"
+  },
+  {
+    "id": 4,
+    "destino": "Nueva York",
+    "descripcion": "Explora la Gran Manzana: Times Square, Central Park y más.",
+    "precio": 950.00,
+    "imagen": "assets/images/nyc.jpeg",
+    "duracion": "4 días / 3 noches",
+    "tipo": "Ciudad"
+  },
+  {
+    "id": 5,
+    "destino": "Machu Picchu",
+    "descripcion": "Aventura arqueológica con caminatas y guías expertos.",
+    "precio": 1100.00,
+    "imagen": "assets/images/machu).jpeg",
+    "duracion": "6 días / 5 noches",
+    "tipo": "Aventura"
+  }
+]

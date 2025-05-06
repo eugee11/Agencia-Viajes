@@ -1,0 +1,14 @@
+<div *ngIf="producto" class="detalle-producto">
+  <h2>{{ producto.destino }}</h2>
+  <img [src]="producto.imagen" [alt]="producto.destino" />
+  <p><strong>Descripción:</strong> {{ producto.descripcion }}</p>
+  <p><strong>Duración:</strong> {{ producto.duracion }}</p>
+  <p><strong>Tipo de paquete:</strong> {{ producto.tipo }}</p>
+  <p><strong>Precio:</strong> {{ producto.precio | currency:'EUR' }} por persona</p>
+  <a routerLink="/catalogo">← Volver al catálogo</a>
+  <br>
+  <a routerLink="/pago">Reservar paquete</a>
+</div>
+<div *ngIf="!producto" class="cargando">
+  <p>Cargando paquete...</p>
+</div>
